@@ -1,0 +1,22 @@
+# Node
+node_modules/
+.npm/
+.node_repl_history
+
+# Environment
+.env
+
+# OS & Logs
+*.log
+.DS_Store
+
+# Android / Emulator
+.android/
+.gradle/
+
+# VirtualBox
+.VirtualBox/
+VirtualBox.xml*
+
+# User home junk (VERY IMPORTANT)
+C:/Users/
