@@ -69,7 +69,7 @@ npm run dev
 
 After clicking "Initialize Sample Data" on admin dashboard:
 
-- Admin: admin@library.com / admin123
+- Admin: arjunsingh@gmail.com / admin123
 - User: user@library.com / user123
 
 ## API Endpoints

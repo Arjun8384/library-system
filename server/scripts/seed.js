@@ -18,7 +18,7 @@ const seed = async () => {
     await User.create([
       {
         name: "Admin",
-        email: "admin@library.com",
+        email: "arjunsingh@gmail.com",
         password: await require("bcryptjs").hash("admin123", 10),
         role: "admin",
       },

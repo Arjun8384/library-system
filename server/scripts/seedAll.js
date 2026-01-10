@@ -21,7 +21,7 @@ const seedAll = async () => {
 
     const admin = await User.create({
       name: "Admin",
-      email: "admin@library.com",
+      email: "arjunsingh@gmail.com",
       password: adminPassword,
       role: "admin",
     })

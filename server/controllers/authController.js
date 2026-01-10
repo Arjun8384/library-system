@@ -41,10 +41,10 @@ exports.register = async (req, res) => {
 
 exports.seed = async (req, res) => {
   try {
-    const adminExists = await User.findOne({ email: "admin@library.com" })
+    const adminExists = await User.findOne({ email: "arjunsingh@gmail.com" })
     if (!adminExists) {
       const hashedPassword = await bcrypt.hash("admin123", 10)
-      await User.create({ name: "Admin", email: "admin@library.com", password: hashedPassword, role: "admin" })
+      await User.create({ name: "Admin", email: "arjunsingh@gmail.com", password: hashedPassword, role: "admin" })
     }
 
     const userExists = await User.findOne({ email: "user@library.com" })

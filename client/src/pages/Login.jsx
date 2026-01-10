@@ -40,7 +40,7 @@ export default function Login() {
         </button>
       </form>
       <p style={{ marginTop: "20px", textAlign: "center", fontSize: "12px", color: "#666" }}>
-        Admin: admin@library.com / admin123
+        Admin: arjunsingh@gmail.com / admin123
         <br />
         User: user@library.com / user123
       </p>
